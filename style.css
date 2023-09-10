@@ -4,8 +4,276 @@
     padding: 0;
     border: border-box;
     font-family:"Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; 
+    text-decoration: none;
+}
+/* Danish */
+body{
+    min-height: 100vh;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background-color: white;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gainsboro;
+    margin: 0;
+
+}
+.logo{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#logoText{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+#logoText span{
+    margin-top: 0;
+    font-size: 15px;
+}
+#logoImg{
+    width: 50px;
+    height: 50px;
+}
+header .navBar ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom:0;
+    /* margin-right: 5px; */
+    font-weight: 18px;
+        /* text-decoration: underline; 
+     text-underline-offset: ; */
+}
+header .navBar ul li{
+    position: relative;
+    float: left;
+}
+header .navBar ul li a{
+    font-size: 13px;
+    padding: 20px;
+    color:black;
+    display: block;
+}
+.down-arrow1{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-top: 5px solid #4296cb;
+    transform: translate(1100%,-600% );
+}
+.down-arrow2{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-top: 5px solid #4296cb;
+    transform: translate(1430%,-600% );
+}
+.down-arrow3{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-top: 5px solid #4296cb;
+    transform: translate(1150%,-600% );
+}
+.down-arrow4{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-top: 5px solid #4296cb;
+    transform: translate(710%,-600% );
+}
+#box{
+    border-right: 0.5px solid gainsboro;
+    border-left: 0.5px solid gainsboro;
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+}
+#box p{
+    font-size: 12px;
+    color:#4296cb ;
+    transform: translate(50%,120% );
+
+}
+#box p span{
+    font-size: 13px;
+    color: black;
+}
+.down-arrow5{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-top: 5px solid #4296cb;
+    transform: translate(1900%,240% );
+}
+#search{
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#bag{
+    height: 20px;
+    cursor: pointer;
+    margin-left: 13px;
+}
+#WORKOUT_img{
+    width: 50px;
+    height: 50px;
+}
+.WORKOUT_li{
+    display: none;
+}
+.navBox{
+    position: absolute;
+    left: 0;
+    width: 1600px;
+    height: 150px;
+    margin-left: -350px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBox1{
+    position: absolute;
+    left: 0;
+    width: 1600px;
+    height: 150px;
+    margin-left: -450px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBox2{
+    position: absolute;
+    left: 0;
+    width: 1600px;
+    height: 150px;
+    margin-left: -570px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBox3{
+    position: absolute;
+    left: 0;
+    width: 1600px;
+    height: 150px;
+    margin-left: -730px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBox4{
+    position: absolute;
+    left: 0;
+    width: 1600px;
+    height: 150px;
+    margin-left: -850px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.WORKOUT_video{
+    font-size: 15px;
+    font-style:bold;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navBox img{
+    margin-left: 50px;
+    border-radius: 100%;
+}
+.WORKOUT_pract{
+    margin-left: 50px;
+}
+.WORKOUT_pract img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.WORKOUT_pract p{
+    font-size: 15px;
+    font-style:bold;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.WORKOUT_li li{
+    width: 100%;
+}
+.navBar ul li:hover > ul{
+    display: initial;
+}
+.navBox div:hover{
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+.join{
+    display: none;
+}
+.modal-content  h2{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.modal-content  p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 30px;
+    line-break: 0.5px;
+}
+.modal-content div{
+    border: 2px solid wheat;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.modal-content{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 330px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.join li:hover > div{
+   cursor: pointer;
+}
+/* danish */
 .footer-contener{
     background-color:#212432;
     color:white;
@@ -13,8 +281,7 @@
     height:500px;
     position:fixed;
     bottom: 0;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px; 
 }
 .box2{
     display:flex;
