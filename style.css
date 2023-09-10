@@ -63,6 +63,12 @@ header .navBar ul li a{
     color:black;
     display: block;
 }
+.navBar ul li:hover{
+    text-decoration: underline solid;
+    color: #4296cb;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 1.5em;
+}
 .down-arrow1{
     width: 0; 
     height: 0; 
